@@ -39,7 +39,8 @@ public class Main {
                     System.out.println("Fuck! The  number less than " + guess);
                 }
             }
-            if (difficulty == 3) {
+        }
+        if (difficulty == 3) {
                 for (int i = 1; i <= 2; i++) {
                     int guess = input.nextInt();
                     if (guess == num) {
